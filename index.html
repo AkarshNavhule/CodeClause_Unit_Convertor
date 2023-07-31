@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Unit Converter</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+	<h1>Unit Converter</h1>
+	<form>
+		<label for="inputValue">Value to convert:</label>
+		<input type="number" id="inputValue" name="inputValue"><br>
+		<label for="fromUnit">From:</label>
+		<select id="fromUnit" name="fromUnit">
+			<option value="m">Meters</option>
+			<option value="ft">Feet</option>
+			<option value="in">Inches</option>
+			<option value="cm">Centimeters</option>
+			<option value="mm">Millimeters</option>
+			<option value="km">Kilometers</option>
+			<option value="mi">Miles</option>
+			<option value="yd">Yards</option>
+			<option value="sec">Seconds</option>
+			<option value="min">Minutes</option>
+			<option value="hr">Hours</option>
+			<option value="day">Days</option>
+			<option value="kg">Kilograms</option>
+			<option value="lb">Pounds</option>
+			<option value="oz">Ounces</option>
+			<option value="c">Celsius</option>
+			<option value="f">Fahrenheit</option>
+			<option value="k">Kelvin</option>
+		</select><br>
+		<label for="toUnit">To:</label>
+		<select id="toUnit" name="toUnit">
+			<option value="m">Meters</option>
+			<option value="ft">Feet</option>
+			<option value="in">Inches</option>
+			<option value="cm">Centimeters</option>
+			<option value="mm">Millimeters</option>
+			<option value="km">Kilometers</option>
+			<option value="mi">Miles</option>
+			<option value="yd">Yards</option>
+			<option value="sec">Seconds</option>
+			<option value="min">Minutes</option>
+			<option value="hr">Hours</option>
+			<option value="day">Days</option>
+			<option value="kg">Kilograms</option>
+			<option value="lb">Pounds</option>
+			<option value="oz">Ounces</option>
+			<option value="c">Celsius</option>
+			<option value="f">Fahrenheit</option>
+			<option value="k">Kelvin</option>
+		</select><br>
+		<button type="button" onclick="convert()">Convert</button>
+		<button type="button" onclick="window.location.href = 'p2.html';">My Portfolio</button>
+	</form>
+	<p id="result"></p>
+	
+</body>
+</html>
